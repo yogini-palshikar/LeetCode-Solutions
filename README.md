@@ -5,11 +5,13 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Divide and Conquer
 |  |
@@ -18,6 +20,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -35,4 +38,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## String
+|  |
+| ------- |
+| [0049-group-anagrams](https://github.com/yogini-palshikar/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 <!---LeetCode Topics End-->
