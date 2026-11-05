@@ -7,8 +7,7 @@ class Solution:
         for i in s:
             if i in m:
                 if  not l or l.pop()!=m[i]:
-                    return False
-                
+                    return False 
             else:
                 l.append(i)
         
