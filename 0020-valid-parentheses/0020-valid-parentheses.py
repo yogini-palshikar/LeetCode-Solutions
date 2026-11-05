@@ -6,15 +6,9 @@ class Solution:
         l=[]
         for i in s:
             if i in m:
-                if(len(l)==0):
-                    t = -1
-                else:
-                    t = l[-1]
-
-                if(m[i]==t):
-                    l.pop()
-                else:
+                if  not l or l.pop()!=m[i]:
                     return False
+                
             else:
                 l.append(i)
         
