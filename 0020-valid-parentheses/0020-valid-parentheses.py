@@ -1,36 +1,24 @@
 class Solution:
-    def __init__(self):
-        self.l=[]
-    
-    def check(self,o,c):
-        if(o=='(' and c==')'):
-            return True
-        elif(o=='[' and c==']'):
-            return True
-        elif(o=='{' and c=='}'):
-            return True
-        else:
-            return False
+
 
     def isValid(self, s: str) -> bool:
-        for i in range(0,len(s)):
-            
-            if (s[i]=='(' or s[i]=='{' or s[i]=='['):
-                self.l.append(s[i])
-
-            elif (s[i]==')' or s[i]=='}' or s[i]==']'):
-                
-                if(len(self.l)==0):
+        m={')':'(', '}':'{', ']':'['}
+        l=[]
+        for i in s:
+            if i in m:
+                if(len(l)==0):
                     t = -1
                 else:
-                    t = self.l[-1]
-                
-                if (self.check(t,s[i])):
-                    self.l.pop()
+                    t = l[-1]
+
+                if(m[i]==t):
+                    l.pop()
                 else:
                     return False
+            else:
+                l.append(i)
         
-        if len(self.l)==0:
+        if len(l)==0:
             return True
         else:
             return False
