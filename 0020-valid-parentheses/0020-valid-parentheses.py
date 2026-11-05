@@ -6,8 +6,15 @@ class Solution:
         l=[]
         for i in s:
             if i in m:
-                if  not l or l.pop()!=m[i]:
-                    return False 
+                if(len(l)==0):
+                    t = -1
+                else:
+                    t = l[-1]
+
+                if(m[i]==t):
+                    l.pop()
+                else:
+                    return False
             else:
                 l.append(i)
         
